@@ -1,0 +1,55 @@
+.team_section{
+    background: url(../../../public/images/Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+
+.team_section__headingPara{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6B6B6B;
+    max-width: 748px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.singel_team{
+    margin-bottom: 37px;
+}
+
+.singel_team p{
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #424242;
+margin-bottom: 0 !important;
+}
+
+.singel_team span{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #8F8F8F;
+}
+
+.single_team__text{
+    padding: 34px ;
+
+}
+
+.single_team_learn{
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #17CDF7;
+}
+

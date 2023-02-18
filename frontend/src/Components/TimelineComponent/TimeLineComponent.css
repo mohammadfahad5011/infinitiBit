@@ -1,0 +1,102 @@
+.timline_Container {
+  position: relative;
+}
+
+.timline_Container::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: #f2f2f2;
+  left: 0;
+  top: -26px;
+}
+
+.timleline_item {
+  display: flex;
+  position: relative;
+  padding-left: 16px;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+
+.timleline_item::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  z-index: 10;
+  left: -6px;
+  transition: 0.3s;
+  background: #d8d8d8;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0px 4px #ffffff;
+}
+
+.timleline_item .active_dot {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #7ed321;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0px 4px #ffffff;
+  z-index: 11;
+  top: 0;
+  left: -6px;
+}
+
+.timeline_date {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #424242;
+  width: 25%;
+}
+
+.timeline_content {
+  width: 75%;
+}
+
+.accordin_header {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #424242;
+}
+
+.timeline_content ul {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline_content ul li {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #424242;
+  margin-bottom: 18px;
+  text-indent: -20px;
+  padding-left: 20px;
+}
+
+.timeline_content ul li::before {
+  content: "";
+  display: inline-block;
+  width: 12px; /* increase or decrease as needed */
+  height: 12px; /* increase or decrease as needed */
+  margin-right: 8px; /* spacing between the marker and the text */
+  background-color: #d9d9d9; /* marker color */
+  border-radius: 50%; /* make the marker circular */
+  vertical-align: middle;
+  font-size: 16px; /* match the font size of the list item text */
+}

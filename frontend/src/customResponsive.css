@@ -1,0 +1,102 @@
+/*********** 987 px screen ******************/
+
+@media only screen and (max-width: 987px) {
+  .single_feature {
+    padding: 20px !important;
+  }
+  .foter_center_content ul li a {
+    font-size: 12px;
+  }
+
+  .vedeo_right_text {
+    margin-top: 40px;
+  }
+}
+
+/*********** 760 px screen ******************/
+
+@media only screen and (max-width: 760px) {
+  
+}
+
+/*********** 768 px screen ******************/
+
+
+@media only screen and (max-width: 768px) {
+  .foter_center_content ul li a {
+    font-size: 16px;
+  }
+}
+
+/*********** 570 px screen ******************/
+
+@media only screen and (max-width: 570px) {
+  .slider_content h1 {
+    font-size: 36px;
+    width: 75%;
+  }
+  .swiper-slide {
+    padding: 2rem 0 8rem 0;
+  }
+  .slider_content p {
+    width: 345px;
+  }
+  .hero_section {
+    height: 80vh;
+  }
+  .features_section {
+    padding-top:0px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .slider_content {
+    padding-left: 0 !important;
+  }
+  .vedeo_right_text {
+    padding-left: 20px;
+  }
+  .form-control {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  .stay_btn{
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .stayupdate h1 {
+    font-size: 18px;
+    line-height: 26px;
+    }
+
+    .stayupdate {
+        padding: 60px;
+        background-size: cover;
+    }
+    .slider_content h1 {
+        font-size: 30px;
+        width: 75%;
+      }
+      .swiper-slide {
+        padding: 2rem 0 8rem 0;
+      }
+      .slider_content p {
+        width: 340px;
+      }
+      .hero_section {
+        background-size: contain;
+        background-position: center right;
+    }
+    .logo_img {
+        max-width: 140px;
+    }
+    
+    .swiper-pagination{
+        padding-left: 135px;
+    }
+}

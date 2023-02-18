@@ -1,0 +1,113 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: transparent;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0 8rem 0;
+
+}
+
+
+
+/* custom css  */
+.slider_content {
+  padding-left: 60px;
+}
+
+.slider_content h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #424242;
+  margin-bottom: 20px;
+  width: 392px;
+}
+
+.slider_content p {
+  font-family: "Open Sans", sans-serif;
+  width: 435px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #424242;
+  mix-blend-mode: darken;
+}
+
+/* swiper slider custom */
+.swiper-pagination {
+  text-align: left !important;
+  display: flex;
+  align-items: center;
+  padding-left: 170px;
+  bottom: 60px !important;
+}
+
+.swiper-pagination-bullet {
+  background: #17cdf7 !important;
+  width: 8px !important;
+  height: 8px !important;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.swiper-button-prev::after {
+  content: "\2190" !important; /* Unicode value for the chevron-left icon */
+  font-weight: 900;
+  color: #fff;
+  font-size: 15px !important;
+}
+
+.swiper-button-next::after {
+  content: "\2192" !important; /* Unicode value for right arrow */
+  font-weight: 900;
+  font-size: 15px !important;
+  color: #fff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  background: #59d2fe;
+  box-shadow: 0px 0px 8px rgba(89, 210, 254, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-prev {
+  left: 10px !important;
+  /* top: 190px !important; */
+  top: 30% !important;
+  transform: translateY(-30%);
+  z-index: 999 !important;
+}
+
+.swiper-button-next {
+  right: 10px !important;
+  /* top: 190px !important; */
+  top: 30% !important;
+  transform: translateY(-30%);
+  z-index: 999 !important;
+}

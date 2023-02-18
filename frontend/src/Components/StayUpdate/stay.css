@@ -1,0 +1,60 @@
+/* .input-group>.form-control, .input-group>.form-floating, .input-group>.form-select{
+    width: 300px !important;
+    height: 40px;
+} */
+.stayupdate {
+  padding: 80px;
+  background: url(../../../public/images/bg-3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+}
+
+.form-width {
+  max-width: 500px ;
+  width: 100%;
+}
+
+.form-control {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6b6b6b !important;
+  background: #ffffff;
+  border: 2px solid #f2f2f2;
+  border-radius: 8px !important;
+}
+
+.form-control:focus{
+    outline: none !important;
+    border: 2px solid #f2f2f2;
+    box-shadow: none;
+}
+
+.stayupdate h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #424242;
+}
+
+.stay_btn{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #17CDF7;
+    padding: 16px;
+    border-radius: 8px !important;
+    margin-left: 20px !important;
+}

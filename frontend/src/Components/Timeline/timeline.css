@@ -1,0 +1,27 @@
+.timeline_section{
+    padding: 80px 0;
+}
+
+.chart_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart_details{
+    margin-top: 80px;
+}
+
+.single_legend{
+    margin-bottom: 16px;
+}
+
+.single_legend:last-child{
+    margin-bottom: 0;
+}
+
+.single_legend span:nth-child(2){
+    margin-left: 12px;
+    margin-right: 17px;
+}

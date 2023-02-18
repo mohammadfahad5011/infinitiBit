@@ -1,0 +1,46 @@
+.achievment_section{
+  margin-bottom: 80px;
+}
+
+.single_achivement h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.single_achivement {
+  padding: 34px;
+  /* transition: 0.3s all ease-in-out; */
+  color: #424242;
+  transition: all 0.3s ease-in-out;
+}
+
+.single_achivement:hover {
+  background: linear-gradient(0deg, #17cdf7, #17cdf7), #ffffff;
+  box-shadow: 0px 0px 24px rgba(173, 180, 180, 0.4);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.single_achivement span {
+  position: relative;
+}
+
+.single_achivement span::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 4px;
+  background: linear-gradient(45deg, #8f65f6 0%, #17cdf7 100%);
+  border-radius: 2px;
+}
+
+.single_achivement p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 16px;
+}
